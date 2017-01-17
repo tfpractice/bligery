@@ -49,5 +49,26 @@
         "rollup-plugin-replace": "^1.1.1",
         "rollup-plugin-uglify": "^1.0.1",
         "rollup-plugin-visualizer": "^0.2.0"
+    },
+    "dependencies": {
+        "axios": "^0.15.3"
+    },
+    "jest": {
+        "collectCoverage": "true",
+        "collectCoverageFrom": [
+      "src/**"
+    ],
+        "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+        "testPathIgnorePatterns": [
+      "/node_modules/",
+      "shared"
+    ],
+        "testEnvironment": "node",
+        "unmockedModulePathPatterns": [
+      "jasmine-expect"
+    ]
     }
 }
