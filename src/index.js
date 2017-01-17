@@ -1,2 +1,1 @@
-export const yes = () => 'yes';
-export default yes;
+export * from './bligeify';

@@ -51,24 +51,25 @@
         "rollup-plugin-visualizer": "^0.2.0"
     },
     "dependencies": {
-        "axios": "^0.15.3"
+        "axios": "^0.15.3",
+        "nlp_compromise": "^6.5.3"
     },
     "jest": {
         "collectCoverage": "true",
         "collectCoverageFrom": [
-      "src/**"
-    ],
+            "src/**"
+        ],
         "moduleFileExtensions": [
-      "js",
-      "jsx"
-    ],
+            "js",
+            "jsx"
+        ],
         "testPathIgnorePatterns": [
-      "/node_modules/",
-      "shared"
-    ],
+            "/node_modules/",
+            "shared"
+        ],
         "testEnvironment": "node",
         "unmockedModulePathPatterns": [
-      "jasmine-expect"
-    ]
+            "jasmine-expect"
+        ]
     }
 }
